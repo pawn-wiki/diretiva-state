@@ -104,8 +104,8 @@ state (condicao) MeuEstadoCondicao;
 Variáveis de estado permitem armazenar informações específicas de estado.
 
 ```pawn
-new variavel<MeuAutomato:EstadoA;
-new variavel<MeuAutomato:EstadoB;
+new variavel<MeuAutomato:EstadoA>;
+new variavel<MeuAutomato:EstadoB>;
 
 entry() <MeuAutomato:EstadoA>
 {
